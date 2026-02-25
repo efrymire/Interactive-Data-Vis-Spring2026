@@ -35,4 +35,12 @@ code block
 // window.alert("hey class")
 console.log("something")
 // const replay = view(Inputs.button("Replay"));
+
+const myChoice = view(Inputs.select(
+  ["Choice 1", "Choice 2", "Choice 3"],
+  { label: "Select" }
+));
 ```
+
+{myChoice}
+
